@@ -1,39 +1,26 @@
+const { Router } = require("express");
 const express = require("express");
 const app = express();
 const importData = require("./data.json")
+
+
 let port = process.env.PORT || 3000;
 
+
 app.get("/", (req, res) => {
-    res.send("АХХХААААХХАААА ЖАРДЫН БРАТ 😂")
+    res.send("/products НАША АЙПИШКА 😎")
 })
 
-app.get("/shoes", (req, res) => {
-    const page = parseInt(req.query.page)
-    const limit = parseInt(req.query.limit)
-
-    const startIndex = (page - 1) * limit
-    const endIndex = page * limit
-
-    const results = {}
-
-    if(endIndex < importData.length) {
-        results.next = {
-            page: page + 1,
-            limit: limit
-        }
-    }
-
-    if(startIndex > 0) {
-        results.previous = {
-            page: page - 1,
-            limit: limit
-        }
-    }
-
-    results.results =importData.slice(startIndex, endIndex)
+app.get("/products", (req, res) => {
+    res.send(importData)
+})
 
 
-    res.send(results)
+
+app.get('/products/:id', (req, res) => {
+    const id = req.params.id
+    const foundGood = importData.find((data) => data.id == id);
+    res.send(foundGood);
 })
 
 app.listen(port, () => {
