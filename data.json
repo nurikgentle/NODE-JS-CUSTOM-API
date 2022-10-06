@@ -1,228 +1,186 @@
-[
-      {
-            "id": 1,
-            "title": "Необычная одежда",
-            "imgs": [
-                {
-                    "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
-                    "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
-                }
-            ],
-            "price": 1300,
-            "colors": [
-                {
-                  "name": "#fff",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#6F83A4",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#F1DDAA",
-                  "colorDeckr": "Кофе с молоком меланж"
-                } 
-              ],
-          "sizes": [
-              {"size": "S"},
-              {"size": "M"},
-              {"size": "L"}
-          ],
-          "description": [
-            {"p": "Состав: 90% Шерсть, 10% Полиэстер"},
-            {"p": "Подкладка: 20% Полиэстер Утеплитель"},
-            {"p": "Утеплитель: 60% Пух, 90% Перо"}
-          ],
-          "care": [
-                {"p": "Cтирать Можно"},
-                {"p": "Гладить при температуре утюга до 200°C"},
-                {"p": "Отбеливать Можно"},
-                {"p": "Сухая чистка (химчистка)"},
-                {"p": "Барабанная сушка не запрещена"}
-          ]
-  
-        },
-        {
-            "id": 2,
-            "title": "Белая куртка",
-            "imgs": [
-                {
-                    "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1belaya.png",
-                    "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/belaya.png"
-                }
-            ],
-            "price": 50300,
-            "colors": [
-                {
-                  "name": "#fff",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#6F83A4",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#F1DDAA",
-                  "colorDeckr": "Кофе с молоком меланж"
-                } 
-              ],
-          "sizes": [
-            {"size": "XXS"},
-            {"size": "XS"},
-              {"size": "S"},
-              {"size": "M"},
-              {"size": "L"}
-          ],
-          "description": [
-            {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
-            {"p": "Подкладка: 100% Полиэстер Утеплитель"},
-            {"p": "Утеплитель: 90% Пух, 10% Перо"}
-          ],
-          "care": [
-                {"p": "Не стирать"},
-                {"p": "Гладить при температуре утюга до 110°C"},
-                {"p": "Не отбеливать"},
-                {"p": "Сухая чистка (химчистка)"},
-                {"p": "Барабанная сушка запрещена"}
-          ]
-        },
-        {
-            "id": 3,
-            "title": "Голубое пальто",
-            "imgs": [
-                {
-                    "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
-                    "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
-                }
-            ],
-            "price": 20050,
-            "colors": [
-                {
-                  "name": "#fff",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#6F83A4",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#F1DDAA",
-                  "colorDeckr": "Кофе с молоком меланж"
-                } 
-              ],
-          "sizes": [
-              {"size": "S"},
-              {"size": "M"},
-              {"size": "L"}
-          ],
-          "description": [
-            {"p": "Состав: 10% Шерсть, 90% Полиэстер"},
-            {"p": "Подкладка: 50% Полиэстер Утеплитель"},
-            {"p": "Утеплитель: 20% Пух, 60% Перо"}
-          ],
-          "care": [
-                {"p": "Иногда можно стирать"},
-                {"p": "Гладить при температуре утюга до 60°C"},
-                {"p": "Отбеливать можно частично"},
-                {"p": "Влажная чистка"},
-                {"p": "Барабанная сушка нельзя"}
-          ]
-        },
-        {
-            "id": 4,
-            "title": "Бежевая шуба",
-            "imgs": [
-                {
-                    "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1bezhevaya.png",
-                    "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/bezhevaya.png"
-                }
-            ],
-            "price": 18000,
-            "colors": [
-                {
-                  "name": "#fff",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#6F83A4",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#F1DDAA",
-                  "colorDeckr": "Кофе с молоком меланж"
-                } 
-              ],
-          "sizes": [
-              {"size": "S"},
-              {"size": "M"},
-              {"size": "L"}
-          ],
-          "description": [
-            {"p": "Состав: 90% Шерсть, 55% Полиэстер"},
-            {"p": "Подкладка: 11% Полиэстер Утеплитель"},
-            {"p": "Утеплитель: 76% Пух, 17% Перо"}
-          ],
-          "care": [
-                {"p": "Стирать редко"},
-                {"p": "Гладить при температуре утюга до 400°C"},
-                {"p": "Не рекомендуется отбеливать"},
-                {"p": "Сухая чистка (Вручную"},
-                {"p": "Барабанная сушка не рекомендуется"}
-          ]
-        },
-        {
-            "id": 5,
-            "title": "Новое платье",
-            "imgs": [
-                {
-                    "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
-                    "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
-                }
-            ],
-            "price": 10900,
-            "colors": [
-                {
-                  "name": "#fff",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#6F83A4",
-                  "colorDeckr": ""
-                },
-                {
-                  "name": "#F1DDAA",
-                  "colorDeckr": "Кофе с молоком меланж"
-                } 
-              ],
-          "sizes": [
-            {"size": "XS"},
-              {"size": "S"},
-              {"size": "M"},
-              {"size": "L"}
-          ],
-          "description": [
-            {"p": "Состав: 19% Шерсть, 49% Полиэстер"},
-            {"p": "Подкладка: 10% Полиэстер Утеплитель"},
-            {"p": "Утеплитель: 36% Пух, 60% Перо"}
-          ],
-          "care": [
-                {"p": "Не стирать строго"},
-                {"p": "Гладить при температуре утюга до 40°C"},
-                {"p": "Не отбеливать строго"},
-                {"p": "Сухая чистка (обязательно)"},
-                {"p": "Барабанная сушка воопще нельзя"}
-          ]
-        },
-        {
-          "id": 6,
-          "title": "Синяя парка",
+{
+  "result": [
+    {
+          "id": 1,
+          "title": "Необычная одежда",
           "imgs": [
               {
-                  "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1parka.png",
-                  "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/parka.png"
+                  "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
+                  "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
               }
           ],
-          "price": 2900,
+          "price": 1300,
+          "colors": [
+              {
+                "name": "#fff",
+                "colorDeckr": ""
+              },
+              {
+                "name": "#6F83A4",
+                "colorDeckr": ""
+              },
+              {
+                "name": "#F1DDAA",
+                "colorDeckr": "Кофе с молоком меланж"
+              } 
+            ],
+        "sizes": [
+            {"size": "S"},
+            {"size": "M"},
+            {"size": "L"}
+        ],
+        "description": [
+          {"p": "Состав: 90% Шерсть, 10% Полиэстер"},
+          {"p": "Подкладка: 20% Полиэстер Утеплитель"},
+          {"p": "Утеплитель: 60% Пух, 90% Перо"}
+        ],
+        "care": [
+              {"p": "Cтирать Можно"},
+              {"p": "Гладить при температуре утюга до 200°C"},
+              {"p": "Отбеливать Можно"},
+              {"p": "Сухая чистка (химчистка)"},
+              {"p": "Барабанная сушка не запрещена"}
+        ]
+
+      },
+      {
+          "id": 2,
+          "title": "Белая куртка",
+          "imgs": [
+              {
+                  "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1belaya.png",
+                  "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/belaya.png"
+              }
+          ],
+          "price": 50300,
+          "colors": [
+              {
+                "name": "#fff",
+                "colorDeckr": ""
+              },
+              {
+                "name": "#6F83A4",
+                "colorDeckr": ""
+              },
+              {
+                "name": "#F1DDAA",
+                "colorDeckr": "Кофе с молоком меланж"
+              } 
+            ],
+        "sizes": [
+          {"size": "XXS"},
+          {"size": "XS"},
+            {"size": "S"},
+            {"size": "M"},
+            {"size": "L"}
+        ],
+        "description": [
+          {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
+          {"p": "Подкладка: 100% Полиэстер Утеплитель"},
+          {"p": "Утеплитель: 90% Пух, 10% Перо"}
+        ],
+        "care": [
+              {"p": "Не стирать"},
+              {"p": "Гладить при температуре утюга до 110°C"},
+              {"p": "Не отбеливать"},
+              {"p": "Сухая чистка (химчистка)"},
+              {"p": "Барабанная сушка запрещена"}
+        ]
+      },
+      {
+          "id": 3,
+          "title": "Голубое пальто",
+          "imgs": [
+              {
+                  "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
+                  "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
+              }
+          ],
+          "price": 20050,
+          "colors": [
+              {
+                "name": "#fff",
+                "colorDeckr": ""
+              },
+              {
+                "name": "#6F83A4",
+                "colorDeckr": ""
+              },
+              {
+                "name": "#F1DDAA",
+                "colorDeckr": "Кофе с молоком меланж"
+              } 
+            ],
+        "sizes": [
+            {"size": "S"},
+            {"size": "M"},
+            {"size": "L"}
+        ],
+        "description": [
+          {"p": "Состав: 10% Шерсть, 90% Полиэстер"},
+          {"p": "Подкладка: 50% Полиэстер Утеплитель"},
+          {"p": "Утеплитель: 20% Пух, 60% Перо"}
+        ],
+        "care": [
+              {"p": "Иногда можно стирать"},
+              {"p": "Гладить при температуре утюга до 60°C"},
+              {"p": "Отбеливать можно частично"},
+              {"p": "Влажная чистка"},
+              {"p": "Барабанная сушка нельзя"}
+        ]
+      },
+      {
+          "id": 4,
+          "title": "Бежевая шуба",
+          "imgs": [
+              {
+                  "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1bezhevaya.png",
+                  "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/bezhevaya.png"
+              }
+          ],
+          "price": 18000,
+          "colors": [
+              {
+                "name": "#fff",
+                "colorDeckr": ""
+              },
+              {
+                "name": "#6F83A4",
+                "colorDeckr": ""
+              },
+              {
+                "name": "#F1DDAA",
+                "colorDeckr": "Кофе с молоком меланж"
+              } 
+            ],
+        "sizes": [
+            {"size": "S"},
+            {"size": "M"},
+            {"size": "L"}
+        ],
+        "description": [
+          {"p": "Состав: 90% Шерсть, 55% Полиэстер"},
+          {"p": "Подкладка: 11% Полиэстер Утеплитель"},
+          {"p": "Утеплитель: 76% Пух, 17% Перо"}
+        ],
+        "care": [
+              {"p": "Стирать редко"},
+              {"p": "Гладить при температуре утюга до 400°C"},
+              {"p": "Не рекомендуется отбеливать"},
+              {"p": "Сухая чистка (Вручную"},
+              {"p": "Барабанная сушка не рекомендуется"}
+        ]
+      },
+      {
+          "id": 5,
+          "title": "Новое платье",
+          "imgs": [
+              {
+                  "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
+                  "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
+              }
+          ],
+          "price": 10900,
           "colors": [
               {
                 "name": "#fff",
@@ -244,200 +202,28 @@
             {"size": "L"}
         ],
         "description": [
-          {"p": "Состав: 65% Шерсть, 87% Полиэстер"},
-          {"p": "Подкладка: 74% Полиэстер Утеплитель"},
-          {"p": "Утеплитель: 82% Пух, 53% Перо"}
+          {"p": "Состав: 19% Шерсть, 49% Полиэстер"},
+          {"p": "Подкладка: 10% Полиэстер Утеплитель"},
+          {"p": "Утеплитель: 36% Пух, 60% Перо"}
         ],
         "care": [
-              {"p": "Стирать раз в неделю"},
-              {"p": "Гладить при температуре утюга до 900°C"},
-              {"p": "Отбеливать не советуем"},
-              {"p": "Сухая чистка безвредна"},
-              {"p": "Барабанная сушка можно"}
+              {"p": "Не стирать строго"},
+              {"p": "Гладить при температуре утюга до 40°C"},
+              {"p": "Не отбеливать строго"},
+              {"p": "Сухая чистка (обязательно)"},
+              {"p": "Барабанная сушка воопще нельзя"}
         ]
       },
       {
-        "id": 7,
-        "title": "Новая одежда",
+        "id": 6,
+        "title": "Синяя парка",
         "imgs": [
             {
-                "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
-                "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
+                "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1parka.png",
+                "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/parka.png"
             }
         ],
-        "price": 6306,
-        "colors": [
-            {
-              "name": "#fff",
-              "colorDeckr": ""
-            },
-            {
-              "name": "#6F83A4",
-              "colorDeckr": ""
-            },
-            {
-              "name": "#F1DDAA",
-              "colorDeckr": "Кофе с молоком меланж"
-            } 
-          ],
-      "sizes": [
-          {"size": "S"},
-          {"size": "M"},
-          {"size": "L"}
-      ],
-      "description": [
-        {"p": "Состав: 90% Шерсть, 10% Полиэстер"},
-        {"p": "Подкладка: 20% Полиэстер Утеплитель"},
-        {"p": "Утеплитель: 60% Пух, 90% Перо"}
-      ],
-      "care": [
-            {"p": "Cтирать Можно"},
-            {"p": "Гладить при температуре утюга до 200°C"},
-            {"p": "Отбеливать Можно"},
-            {"p": "Сухая чистка (химчистка)"},
-            {"p": "Барабанная сушка не запрещена"}
-      ]
-
-    },
-    {
-        "id": 8,
-        "title": "Яркая куртка",
-        "imgs": [
-            {
-                "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1belaya.png",
-                "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/belaya.png"
-            }
-        ],
-        "price": 7270,
-        "colors": [
-            {
-              "name": "#fff",
-              "colorDeckr": ""
-            },
-            {
-              "name": "#6F83A4",
-              "colorDeckr": ""
-            },
-            {
-              "name": "#F1DDAA",
-              "colorDeckr": "Кофе с молоком меланж"
-            } 
-          ],
-      "sizes": [
-        {"size": "XXS"},
-        {"size": "XS"},
-          {"size": "S"},
-          {"size": "M"},
-          {"size": "L"}
-      ],
-      "description": [
-        {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
-        {"p": "Подкладка: 100% Полиэстер Утеплитель"},
-        {"p": "Утеплитель: 90% Пух, 10% Перо"}
-      ],
-      "care": [
-            {"p": "Не стирать"},
-            {"p": "Гладить при температуре утюга до 110°C"},
-            {"p": "Не отбеливать"},
-            {"p": "Сухая чистка (химчистка)"},
-            {"p": "Барабанная сушка запрещена"}
-      ]
-    },
-    {
-        "id": 9,
-        "title": "Популярное пальто",
-        "imgs": [
-            {
-                "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
-                "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
-            }
-        ],
-        "price": 5927,
-        "colors": [
-            {
-              "name": "#fff",
-              "colorDeckr": ""
-            },
-            {
-              "name": "#6F83A4",
-              "colorDeckr": ""
-            },
-            {
-              "name": "#F1DDAA",
-              "colorDeckr": "Кофе с молоком меланж"
-            } 
-          ],
-      "sizes": [
-          {"size": "S"},
-          {"size": "M"},
-          {"size": "L"}
-      ],
-      "description": "'Lorem'",
-      "compound": [
-        {"p": "Состав: 10% Шерсть, 90% Полиэстер"},
-        {"p": "Подкладка: 50% Полиэстер Утеплитель"},
-        {"p": "Утеплитель: 20% Пух, 60% Перо"}
-      ],
-      "care": [
-            {"p": "Иногда можно стирать"},
-            {"p": "Гладить при температуре утюга до 60°C"},
-            {"p": "Отбеливать можно частично"},
-            {"p": "Влажная чистка"},
-            {"p": "Барабанная сушка нельзя"}
-      ]
-    },
-    {
-        "id": 10,
-        "title": "Норковая шуба",
-        "imgs": [
-            {
-                "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1bezhevaya.png",
-                "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/bezhevaya.png"
-            }
-        ],
-        "price": 8275,
-        "colors": [
-            {
-              "name": "#fff",
-              "colorDeckr": ""
-            },
-            {
-              "name": "#6F83A4",
-              "colorDeckr": ""
-            },
-            {
-              "name": "#F1DDAA",
-              "colorDeckr": "Кофе с молоком меланж"
-            } 
-          ],
-      "sizes": [
-          {"size": "S"},
-          {"size": "M"},
-          {"size": "L"}
-      ],
-      "description": [
-        {"p": "Состав: 90% Шерсть, 55% Полиэстер"},
-        {"p": "Подкладка: 11% Полиэстер Утеплитель"},
-        {"p": "Утеплитель: 76% Пух, 17% Перо"}
-      ],
-      "care": [
-            {"p": "Стирать редко"},
-            {"p": "Гладить при температуре утюга до 400°C"},
-            {"p": "Не рекомендуется отбеливать"},
-            {"p": "Сухая чистка (Вручную"},
-            {"p": "Барабанная сушка не рекомендуется"}
-      ]
-    },
-    {
-        "id": 11,
-        "title": "Трендовое платье",
-        "imgs": [
-            {
-                "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
-                "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
-            }
-        ],
-        "price": 8453,
+        "price": 2900,
         "colors": [
             {
               "name": "#fff",
@@ -459,28 +245,200 @@
           {"size": "L"}
       ],
       "description": [
-        {"p": "Состав: 19% Шерсть, 49% Полиэстер"},
-        {"p": "Подкладка: 10% Полиэстер Утеплитель"},
-        {"p": "Утеплитель: 36% Пух, 60% Перо"}
+        {"p": "Состав: 65% Шерсть, 87% Полиэстер"},
+        {"p": "Подкладка: 74% Полиэстер Утеплитель"},
+        {"p": "Утеплитель: 82% Пух, 53% Перо"}
       ],
       "care": [
-            {"p": "Не стирать строго"},
-            {"p": "Гладить при температуре утюга до 40°C"},
-            {"p": "Не отбеливать строго"},
-            {"p": "Сухая чистка (обязательно)"},
-            {"p": "Барабанная сушка воопще нельзя"}
+            {"p": "Стирать раз в неделю"},
+            {"p": "Гладить при температуре утюга до 900°C"},
+            {"p": "Отбеливать не советуем"},
+            {"p": "Сухая чистка безвредна"},
+            {"p": "Барабанная сушка можно"}
       ]
     },
     {
-      "id": 12,
-      "title": "Меховая одежда",
+      "id": 7,
+      "title": "Новая одежда",
       "imgs": [
           {
-              "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1parka.png",
-              "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/parka.png"
+              "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
+              "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
           }
       ],
-      "price": 3600,
+      "price": 6306,
+      "colors": [
+          {
+            "name": "#fff",
+            "colorDeckr": ""
+          },
+          {
+            "name": "#6F83A4",
+            "colorDeckr": ""
+          },
+          {
+            "name": "#F1DDAA",
+            "colorDeckr": "Кофе с молоком меланж"
+          } 
+        ],
+    "sizes": [
+        {"size": "S"},
+        {"size": "M"},
+        {"size": "L"}
+    ],
+    "description": [
+      {"p": "Состав: 90% Шерсть, 10% Полиэстер"},
+      {"p": "Подкладка: 20% Полиэстер Утеплитель"},
+      {"p": "Утеплитель: 60% Пух, 90% Перо"}
+    ],
+    "care": [
+          {"p": "Cтирать Можно"},
+          {"p": "Гладить при температуре утюга до 200°C"},
+          {"p": "Отбеливать Можно"},
+          {"p": "Сухая чистка (химчистка)"},
+          {"p": "Барабанная сушка не запрещена"}
+    ]
+
+  },
+  {
+      "id": 8,
+      "title": "Яркая куртка",
+      "imgs": [
+          {
+              "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1belaya.png",
+              "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/belaya.png"
+          }
+      ],
+      "price": 7270,
+      "colors": [
+          {
+            "name": "#fff",
+            "colorDeckr": ""
+          },
+          {
+            "name": "#6F83A4",
+            "colorDeckr": ""
+          },
+          {
+            "name": "#F1DDAA",
+            "colorDeckr": "Кофе с молоком меланж"
+          } 
+        ],
+    "sizes": [
+      {"size": "XXS"},
+      {"size": "XS"},
+        {"size": "S"},
+        {"size": "M"},
+        {"size": "L"}
+    ],
+    "description": [
+      {"p": "Состав: 50% Шерсть, 50% Полиэстер"},
+      {"p": "Подкладка: 100% Полиэстер Утеплитель"},
+      {"p": "Утеплитель: 90% Пух, 10% Перо"}
+    ],
+    "care": [
+          {"p": "Не стирать"},
+          {"p": "Гладить при температуре утюга до 110°C"},
+          {"p": "Не отбеливать"},
+          {"p": "Сухая чистка (химчистка)"},
+          {"p": "Барабанная сушка запрещена"}
+    ]
+  },
+  {
+      "id": 9,
+      "title": "Популярное пальто",
+      "imgs": [
+          {
+              "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
+              "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
+          }
+      ],
+      "price": 5927,
+      "colors": [
+          {
+            "name": "#fff",
+            "colorDeckr": ""
+          },
+          {
+            "name": "#6F83A4",
+            "colorDeckr": ""
+          },
+          {
+            "name": "#F1DDAA",
+            "colorDeckr": "Кофе с молоком меланж"
+          } 
+        ],
+    "sizes": [
+        {"size": "S"},
+        {"size": "M"},
+        {"size": "L"}
+    ],
+    "description": "'Lorem'",
+    "compound": [
+      {"p": "Состав: 10% Шерсть, 90% Полиэстер"},
+      {"p": "Подкладка: 50% Полиэстер Утеплитель"},
+      {"p": "Утеплитель: 20% Пух, 60% Перо"}
+    ],
+    "care": [
+          {"p": "Иногда можно стирать"},
+          {"p": "Гладить при температуре утюга до 60°C"},
+          {"p": "Отбеливать можно частично"},
+          {"p": "Влажная чистка"},
+          {"p": "Барабанная сушка нельзя"}
+    ]
+  },
+  {
+      "id": 10,
+      "title": "Норковая шуба",
+      "imgs": [
+          {
+              "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1bezhevaya.png",
+              "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/bezhevaya.png"
+          }
+      ],
+      "price": 8275,
+      "colors": [
+          {
+            "name": "#fff",
+            "colorDeckr": ""
+          },
+          {
+            "name": "#6F83A4",
+            "colorDeckr": ""
+          },
+          {
+            "name": "#F1DDAA",
+            "colorDeckr": "Кофе с молоком меланж"
+          } 
+        ],
+    "sizes": [
+        {"size": "S"},
+        {"size": "M"},
+        {"size": "L"}
+    ],
+    "description": [
+      {"p": "Состав: 90% Шерсть, 55% Полиэстер"},
+      {"p": "Подкладка: 11% Полиэстер Утеплитель"},
+      {"p": "Утеплитель: 76% Пух, 17% Перо"}
+    ],
+    "care": [
+          {"p": "Стирать редко"},
+          {"p": "Гладить при температуре утюга до 400°C"},
+          {"p": "Не рекомендуется отбеливать"},
+          {"p": "Сухая чистка (Вручную"},
+          {"p": "Барабанная сушка не рекомендуется"}
+    ]
+  },
+  {
+      "id": 11,
+      "title": "Трендовое платье",
+      "imgs": [
+          {
+              "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1sinee.png",
+              "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/sinee.png"
+          }
+      ],
+      "price": 8453,
       "colors": [
           {
             "name": "#fff",
@@ -502,18 +460,62 @@
         {"size": "L"}
     ],
     "description": [
-      {"p": "Состав: 65% Шерсть, 87% Полиэстер"},
-      {"p": "Подкладка: 74% Полиэстер Утеплитель"},
-      {"p": "Утеплитель: 82% Пух, 53% Перо"}
+      {"p": "Состав: 19% Шерсть, 49% Полиэстер"},
+      {"p": "Подкладка: 10% Полиэстер Утеплитель"},
+      {"p": "Утеплитель: 36% Пух, 60% Перо"}
     ],
     "care": [
-          {"p": "Стирать раз в неделю"},
-          {"p": "Гладить при температуре утюга до 900°C"},
-          {"p": "Отбеливать не советуем"},
-          {"p": "Сухая чистка безвредна"},
-          {"p": "Барабанная сушка можно"}
+          {"p": "Не стирать строго"},
+          {"p": "Гладить при температуре утюга до 40°C"},
+          {"p": "Не отбеливать строго"},
+          {"p": "Сухая чистка (обязательно)"},
+          {"p": "Барабанная сушка воопще нельзя"}
     ]
-  }
+  },
+  {
+    "id": 12,
+    "title": "Меховая одежда",
+    "imgs": [
+        {
+            "img": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/1parka.png",
+            "imgBig": "https://raw.githubusercontent.com/nurikgentle/NODE-JS-EXPRESS-JS/main/parka.png"
+        }
+    ],
+    "price": 3600,
+    "colors": [
+        {
+          "name": "#fff",
+          "colorDeckr": ""
+        },
+        {
+          "name": "#6F83A4",
+          "colorDeckr": ""
+        },
+        {
+          "name": "#F1DDAA",
+          "colorDeckr": "Кофе с молоком меланж"
+        } 
+      ],
+  "sizes": [
+    {"size": "XS"},
+      {"size": "S"},
+      {"size": "M"},
+      {"size": "L"}
+  ],
+  "description": [
+    {"p": "Состав: 65% Шерсть, 87% Полиэстер"},
+    {"p": "Подкладка: 74% Полиэстер Утеплитель"},
+    {"p": "Утеплитель: 82% Пух, 53% Перо"}
+  ],
+  "care": [
+        {"p": "Стирать раз в неделю"},
+        {"p": "Гладить при температуре утюга до 900°C"},
+        {"p": "Отбеливать не советуем"},
+        {"p": "Сухая чистка безвредна"},
+        {"p": "Барабанная сушка можно"}
+  ]
+}
 ]
+}
 
 
